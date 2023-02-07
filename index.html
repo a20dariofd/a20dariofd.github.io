@@ -4,9 +4,126 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My web</title>
+    <title>Ej1-Boletin2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <!-- Introducir nombre marcador -->
+    <div
+      id="markerForm"
+      class="card d-block position-fixed top-25 z-0"
+      style="left: 50%"
+    >
+      <form class="row justify-content-center text-center">
+        <div class="mb-3">
+          <label for="markerName" class="form-label">Marker Name</label>
+          <input type="text" class="form-control" id="markerName" />
+        </div>
+        <button id="markerButtom" type="button" class="btn btn-primary w-75">
+          Submit
+        </button>
+      </form>
+    </div>
+    <!-- Contenedor -->
+    <div id="container" class="container-fluid">
+      <div class="row">
+        <!-- Cabecera -->
+        <div id="cabecera" class="col-12">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <!-- Input cabecera -->
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <!-- Boton search cabecera -->
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <!-- Cuerpo -->
+        <div id="corpo" class="col-12">
+          <div class="row">
+            <!-- Menu cuerpo -->
+            <div id="menu" class="col-3">
+              <ul
+                id="unorderlist"
+                class="dropdown-menu d-block w-100 position-relative"
+              >
+                <li><a class="dropdown-item" href="#">---</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li><a class="dropdown-item" href="#">---</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">---</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Mapa -->
+            <div id="map" class="col-9 z-1 min-vh-100"></div>
+          </div>
+        </div>
+        <!-- Pie de pagina -->
+        <div id="pé" class="col-12"></div>
+      </div>
+    </div>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="./ej1.js"></script>
 </html>
