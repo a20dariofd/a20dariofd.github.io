@@ -1,0 +1,22 @@
+// Custom.scss
+@font-face {
+  font-family: "Baguette";
+  src: url("../../Recursos/Fuentes/Baguette/Baguette.ttf");
+}
+@font-face {
+  font-family: "Magic-Bread";
+  src: url("../../Recursos/Fuentes/Magic-bread/Magic\ Bread\ Regular.ttf");
+}
+@import "../bootstrap/scss/functions";
+// 2- Variables Overrides
+$theme-colors: (
+  "bgcolor": #dbdbdb,
+  "header": #f7a325,
+  "elementos": #ffc554,
+);
+$font-family-sans-serif: Magic-Bread;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Baguette;
+
+@import "../bootstrap/scss/bootstrap.scss";
+//5- Add additional custom code here

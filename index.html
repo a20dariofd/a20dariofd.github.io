@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frangullas Amigas</title>
+  <link rel="icon" type="image/png" href="./Recursos/Imagenes/Logo.svg" />
+  <link rel="stylesheet" type="text/css" href="./CSS/custom.css" />
+</head>
+
+<body class="bg-bgcolor">
+  <!-- Contenedor -->
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <!-- Cabecera -->
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg bg-header">
+          <div class="container-fluid align-items-start">
+            <a class="navbar-brand font-monospace" href="index.html">Frangullas Amigas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-around">
+                <li class="nav-item dropdown ">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Panadería</h4>
+                  </a>
+                  <ul class="dropdown-menu bg-elementos">
+                    <li><a class="dropdown-item" href="panaderia.html">Panadería</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="panaderia.html#panDia">Pan del dia</a></li>
+                    <li>
+                      <a class="dropdown-item" href="panaderia.html#catalogo">Catalogo</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Pastelería-Bolleria</h4>
+                  </a>
+                  <ul class="dropdown-menu bg-elementos">
+                    <li>
+                      <a class="dropdown-item" href="pasteleria.html">Pasteleria-Bolleria</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pasteleria.html#pastelDia">Pasteles del dia</a>
+                    </li>
+                    <li><a class="dropdown-item" href="pasteleria.html#bolloDia">Bollos del dia</a></li>
+                    <li>
+                      <a class="dropdown-item" href="pasteleria.html#catalogo">Catalogo</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Empanadas</h4>
+                  </a>
+                  <ul class="dropdown-menu bg-elementos">
+                    <li><a class="dropdown-item" href="empanada.html">Empanadas</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="empanada.html#encargo">Empanadas de encargo</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="empanada.html#catalogo">Catalogo</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h4>Como comunicarse con nos ?</h4>
+                  </a>
+                  <ul class="dropdown-menu bg-elementos">
+                    <li><a class="dropdown-item" href="info.html#direccion">Dirección</a></li>
+                    <li><a class="dropdown-item" href="info.html#contacto">Contactanos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown w-25">
+                  <a class="nav-link w-75" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="img-fluid w-25" src="./Recursos/Imagenes/Ætoms_-_Translation.svg" />
+                  </a>
+                  <ul class="dropdown-menu bg-elementos">
+                    <li><a class="dropdown-item" href="#">Galego</a></li>
+                    <li><a class="dropdown-item" href="#">Portugues</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Titulo -->
+      <div class="col-12">
+        <div class="row my-3 text-center h1">
+          <div class="col-12 font-monospace">Frangullas Amigas</div>
+        </div>
+      </div>
+      <!-- Carrusel -->
+      <div class="col-12 col-lg-9">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Recursos/Imagenes/baguettes-mercado-francia-cerca.webp" class="img-fluid d-block w-100"
+                alt=".." />
+            </div>
+            <div class="carousel-item">
+              <img src="./Recursos/Imagenes/diferentes-tipos-pan-base-harina-trigo.webp"
+                class="img-fluid d-block w-100" alt=".." />
+            </div>
+            <div class="carousel-item">
+              <img src="./Recursos/Imagenes/variedad-pan-recien-horneado-mesa.webp" class="img-fluid d-block w-100"
+                alt=".." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Horario -->
+      <div class="col-12 my-2 ">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <table class="table table-striped">
+              <thead class="bg-header">
+                <tr>
+                  <th>Lunes</th>
+                  <th>Martes</th>
+                  <th>Miercoles</th>
+                  <th>Jueves</th>
+                  <th>Viernes</th>
+                  <th>Sabado</th>
+                  <th>Domingo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9:00 . 19:00</td>
+                  <td>9:00 . 19:00</td>
+                  <td>9:00 . 19:00</td>
+                  <td>9:00 . 19:00</td>
+                  <td>9:00 . 19:00</td>
+                  <td>9:00 . 13:00</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="d-lg-flex d-none col-lg-6 text-center align-items-center justify-content-center">
+            <h4 class="">Abrimos toda a semana a extepción de los domingos .</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Pie de pagina -->
+      <div class="col-12 my-2 bg-header">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-6 text-start">
+            <h5>Creado por DarioFungueiriño</h5>
+          </div>
+          <div class="col-6 text-end">
+            <h5>Agradecimientos a :<br />
+              Ætoms<br />
+              <a
+                href="https://www.freepik.es/foto-gratis/diferentes-tipos-pan-base-harina-trigo_7220003.htm#query=pan&position=0&from_view=keyword&track=sph">Imagen
+                de KamranAydinov</a> en Freepik<br />
+
+              <a
+                href="https://www.freepik.es/foto-gratis/baguettes-mercado-francia-cerca_1138282.htm#query=pan&position=3&from_view=keyword&track=sph">Imagen
+                de jcstudio</a> en Freepik<br />
+
+              Imagen de <a
+                href="https://www.freepik.es/foto-gratis/variedad-pan-recien-horneado-mesa_2728047.htm#query=pan&position=7&from_view=keyword&track=sph">Freepik</a><br />
+              <a
+                href="https://www.freepik.es/foto-gratis/panaderia-pan-masa-fermentada-hecha-casa-sana_1044713.htm#query=pan&position=21&from_view=search&track=sph">Imagen
+                de mrsiraphol</a> en Freepik <br />
+              Imagen de <a
+                href="https://www.freepik.es/foto-gratis/vista-superior-sabroso-pan-surtido_8192484.htm#query=pan&position=42&from_view=search&track=sph">Freepik</a><br />
+              <a
+                href="https://www.freepik.es/foto-gratis/primer-plano-sabrosa-tarta-chocolate-trozos-chocolate-bandeja-hornear_15136675.htm#query=pasteleria&position=8&from_view=keyword&track=sph">Imagen
+                de valeria_aksakova</a> en Freepik </br>
+              <a
+                href="https://www.freepik.es/foto-gratis/croissants-tabla-cortar-madera_11268281.htm#query=bolleria&position=2&from_view=search&track=sph">Imagen
+                de jcomp</a> en Freepik</br>
+              <a
+                href="https://www.freepik.es/foto-gratis/vista-superior-pasteles-carne-caseros-belyashi-bandeja-madera-oscura_8405792.htm#query=empanadas&position=5&from_view=search&track=sph">Imagen
+                de KamranAydinov</a> en Freepik</br>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="./SASS/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
